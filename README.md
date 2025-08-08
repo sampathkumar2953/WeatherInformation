@@ -1,4 +1,4 @@
-```markdown
+
 #  Corteva Weather API – FastAPI + SQLAlchemy
 
 This project ingests historical daily weather data from multiple stations, computes yearly statistics, and exposes both **raw daily data** and **aggregated yearly stats** via a **FastAPI REST API**.
@@ -23,44 +23,7 @@ This project ingests historical daily weather data from multiple stations, compu
 
 ---
 
-##  Project Structure
 
-```
-
-.
-├── app/
-│   ├── api/
-│   │   └── routers/
-│   │       ├── weather.py
-│   │       └── weather\_stats.py
-│   ├── database.py
-│   ├── deps.py
-│   ├── main.py
-│   ├── models.py
-│   ├── schemas.py
-│   └── utils.py
-├── scripts/
-│   ├── ingest\_weather.py
-│   └── compute\_stats.py
-├── tests/
-│   ├── conftest.py
-│   ├── test\_ingest.py
-│   └── test\_stats.py
-├── wx\_data/             # Your weather data files (.txt)
-├── requirements.txt
-└── README.md
-
-````
-
----
-
-## ⚙️ Requirements
-
-- **Python** 3.10+
-- **pip** package manager
-- **FastAPI** 0.111+
-- **SQLAlchemy** 2.0+
-- **Uvicorn** ASGI server
 
 ---
 
