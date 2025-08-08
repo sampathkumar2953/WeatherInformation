@@ -208,7 +208,7 @@ pytest -v
 ## Author
 
 **Sampath Kumar**
-Senior Python / FastAPI Developer
+* Senior Python / FastAPI Developer
 
 ---
 
